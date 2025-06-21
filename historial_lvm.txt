@@ -1,0 +1,81 @@
+    1  fdisk -l
+    2  sudo fdisk -l
+    3  free
+    4  exit
+    5  ls -l
+    6  tree
+    7  ansible --version
+    8  fdisk -l
+    9  sudo fdisk -l
+   10  fdisk /dev/sdb
+   11  sudo fdisk /dev/sdb
+   12  exit
+   13  pwd
+   14  sudo fdsisk -l
+   15  sudo fdisk -l
+   16  fdisk -l
+   17  sudo fdisk -l
+   18  exit
+   19  sudo fdisk -l
+   20  sudo fdisk /dev/sdb
+   21  sudo fdisk /dev/sdd
+   22  fdisk -l
+   23  sudo fdisk -l
+   24  sudo fdisk /dev/ssd
+   25  sudo fdisk /dev/sdd
+   26  fdisk
+   27  sudo fdisk -l
+   28  free
+   29  free -h
+   30  sudo mkswap /dev/sdd1
+   31  free -h
+   32  sudo swapon dev/sdd1
+   33  sudo swapon /dev/sdd1
+   34  free -h
+   35  swapon -s
+   36  sudo fdisk -l
+   37  sudo fdisk /dev/sdc
+   38  fdisk -l
+   39  sudo fdisk -l
+   40  sudo fdisk /dev/sdc
+   41  fdisk -l
+   42  sudo fdisk -l
+   43  sudo wipefs -a /dev/sdc1
+   44  sudo pvcreate /dev/sdd2 /dev/sdd3 /dev/sdd5 /dev/sdd6 /dev/sdc1 /dev/sdc2
+   45  pvs
+   46  sudo psv
+   47  sudo pvs
+   48  sudo vgcreate vg_datos /dev/sdc1 /dev/sdd2
+   49  sudo bgs
+   50  sudo vgs
+   51  sudo pvs
+   52  sudo vgcreate vg_web /dev/sdc2
+   53  sudo pvs
+   54  sudo lvcreate -L 1G vg_web -n lv_web1
+   55  sudo lvcreate -L 512M vg_web -n lv_web2
+   56  sudo lvcreate -L 512M vg_web -n lv_web3
+   57  lvs
+   58  sudo lvs
+   59  sudo pvs
+   60  sudo fdisk -l
+   61  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web1
+   62  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web2
+   63  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web3
+   64  git clone git@github.com:valemontero/TP2_Montero_Valentino.git
+   65  ssh-keygen -t ed25519
+   66  ls -l .ssh/
+   67  ls -l .ssh/id_ed25519.pub
+   68  cat .ssh/id_ed25519.pub
+   69  git clone git@github.com:valemontero/TP2_Montero_Valentino.git
+   70  ls -l
+   71  cd TP2_Montero_Valentino/
+   72  ls -l
+   73  sudo pvs > pvs.txt
+   74  sudo pvs > vvs.txt
+   75  ls -l
+   76  rm vvs.txt
+   77  ls- l
+   78  ls -l
+   79  sudo vgs > vgs.txt
+   80  sudo lvs > lvs.txt
+   81  history > historial_lvm.txt
